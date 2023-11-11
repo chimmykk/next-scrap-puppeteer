@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && npx playwright install && node playwrightFunction.js && npm run dev",
+    "dev": "next dev && next build && node playwrightFunction.js",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
